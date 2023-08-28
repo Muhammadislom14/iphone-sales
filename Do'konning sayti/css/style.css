@@ -1,0 +1,123 @@
+/* ALL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CONTAINER */
+.container {
+    margin: 20px;
+    opacity: 90%;
+}
+/* BODY */
+body {
+    background-color: rgb(17, 17, 95);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* CLASSES */
+.block {
+    background-color: #fff;
+    box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.589);
+    display: inline-block;
+    border-radius: 10px;
+    width: 920px;
+}
+.image-block {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+.image-block img{
+    border-radius: 10px;
+    width: 100%;
+}
+.text-block {
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+.text-block__title {
+    font-size: 50px;
+    padding: 15px 0px;
+}
+.text-block__paragraph {
+    font-size: 16px;
+    padding: 10px 15px 10px 0;
+    letter-spacing: 0.5px;
+}
+.text-block__narx {
+    color: rgb(17, 17, 95);
+    display: inline-block;
+    font-size: 35px;
+    margin: 60px 20px 20px 0;
+}
+p, h5, h1:hover {
+    cursor: context-menu;
+}
+
+.text-black__xizmatlar {
+    font-size: 18px;
+    padding: 10px 10px 10px 0;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+.btn {
+    padding: 22px;
+    float: right;
+    font-weight: 700;
+    font-size: 25px;
+    align-items: center;
+    margin: 5px 10px 0 15px;
+}
+.btn-blue {
+    background-color: rgba(0,0,0,0);
+    border: 2px solid rgb(17, 17, 95);
+    border-radius: 10px;
+    color: rgb(17, 17, 95);
+    width: 97.5%;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+.btn-blue:hover {
+    background-color: rgb(17, 17, 95);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.light-green {
+    color: rgb(21, 110, 21);
+}
+.grey {
+    color: grey;
+}
+/* MEDIA */
+
+@media (max-width: 767px) {
+    .text-block__title {
+        font-size: 30px;
+    }
+    .text-block {
+        width: 100%;
+        padding: 10px;
+    }
+    .image-block {
+        width: 100%;
+    }
+    .block {
+        width: 100%;
+    }
+    .btn {
+        margin: 0px;
+        padding: 15px;
+        font-size: 20px;
+    }
+    .btn-blue {
+        width: 100%;
+    }
+    .text-block__paragraph {
+        width: 100%;
+        font-size: 10px;
+    }
+}
